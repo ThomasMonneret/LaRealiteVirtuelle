@@ -1,1 +1,6 @@
-body{font-family: Calibri; color: rgb(0, 0, 0); background: url("fond.jpg") repeat; background-color : purple ;}
+body{background-color: gray; float: left}
+#bannière{position: fixed}
+#menugauche{margin-top: 270px; background-color: #efefef; position: fixed; padding-bottom: 10000000000px}
+#principal{margin-top: 270px; background: url("fond.jpg") repeat; font-family: Calibri; color: rgb(0, 0, 0); 
+margin-left: 250px; margin-right: 250px}
+#menudroite{margin-top: 270px; background-color: #efefef; position: fixed; right: 0; padding-bottom: 10000000000px}
