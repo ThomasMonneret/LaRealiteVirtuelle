@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<!-- Début de la 1re partie commune à chaque page du site (à part le titre)-->
+<html>
+<head>
+<meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="favicon.ico" />
+<title>Donnez votre avis! - La réalité virtuelle</title>
+</head>
+<body>
+<div id="bannière">
+<a href="Accueil.html" title="La réalité virtuelle - Accueil"><img src="bannière.png" alt="La réalité virtuelle"></a>
+</div>
+<div id="menugauche">
+<h1>La réalité virtuelle...</h1>
+<ul>
+<li><a href="Simulateur.html" title="Formation par simulateur - La réalité virtuelle">Formation par simulateur</a></li>
+<li><a href="Médical.html" title="Applications médicales - La réalité virtuelle">Applications médicales</a></li>
+<li><a href="Jeux_vidéo.html" title="Jeux vidéo - La réalité virtuelle">Jeux vidéo</a></li>
+<li><a href="Cinéma.html" title="Cinéma - La réalité virtuelle">Cinéma</a></li>
+<li><a href="Autres_utilisations.html" title="Autres utilisations dans le cadre des loisirs - La réalité virtuelle">Autres utilisations dans le cadre des loisirs</a></li>
+</ul>
+</div>
+<div id="menudroite">
+<h1>Divers</h1>
+<ul>
+<li><a href="Auteur.html" title="A propos de l'auteur - La réalité virtuelle">A propos de l'auteur</a></li>
+<li><a href="Avis.html" title="Donnez votre avis! - La réalité virtuelle">Donnez votre avis!</a></li>
+</ul>
+</div>
+<div id="principal">
+<!-- Fin de la 1re partie commune -->
+<h1>Votre avis m'intéresse!</h1>
+<p>Si vous le voulez bien, prenez le temps de donner votre avis sur ce site après votre visite afin de
+m'aider à l'améliorer. Le questionnaire est court et ne dure pas longtemps. Vos réponses sont anonymes
+et ne seront communiquées à personne.</p>
+<form action="Merci.html">
+<h2>Si vous deviez donnez une note globale allant de 1 à 10 à ce site...</h2>
+<p>
+<label><input name="note" type="radio" value="1">1</label>
+<label><input name="note" type="radio" value="2">2</label>
+<label><input name="note" type="radio" value="3">3</label>
+<label><input name="note" type="radio" value="4">4</label>
+<label><input name="note" type="radio" value="5">5</label>
+<label><input name="note" type="radio" value="6">6</label>
+<label><input name="note" type="radio" value="7">7</label>
+<label><input name="note" type="radio" value="8">8</label>
+<label><input name="note" type="radio" value="9">9</label>
+<label><input name="note" type="radio" value="10">10</label>
+</p>
+<h2>Qu'est-ce que vous avez aimé / pas aimé sur ce site?</h2>
+<p>Les informations m'ont intéressé, j'ai appris des choses:</p>
+<p>
+<label><input name="infos_intéressantes" type="radio" value="verygood">Oui, tout à fait</label>
+<label><input name="infos_intéressantes" type="radio" value="good">Oui, plutôt</label>
+<label><input name="infos_intéressantes" type="radio" value="bad">Non, pas vraiment</label>
+<label><input name="infos_intéressantes" type="radio" value="verybad">Non, pas du tout</label>
+<label><input name="infos_intéressantes" type="radio" value="idontknow">Je ne sais pas</label>
+</p>
+<p>Les informations sont de qualité, elles sont précises:</p>
+<p>
+<label><input name="infos_qualité" type="radio" value="verygood">Oui, tout à fait</label>
+<label><input name="infos_qualité" type="radio" value="good">Oui, plutôt</label>
+<label><input name="infos_qualité" type="radio" value="bad">Non, pas vraiment</label>
+<label><input name="infos_qualité" type="radio" value="verybad">Non, pas du tout</label>
+<label><input name="infos_qualité" type="radio" value="idontknow">Je ne sais pas</label>
+</p>
+<p>Le site est complet, je n'ai pas de questions en suspend:</p>
+<p>
+<label><input name="site_complet" type="radio" value="verygood">Oui, tout à fait</label>
+<label><input name="site_complet" type="radio" value="good">Oui, plutôt</label>
+<label><input name="site_complet" type="radio" value="bad">Non, pas vraiment</label>
+<label><input name="site_complet" type="radio" value="verybad">Non, pas du tout</label>
+<label><input name="site_complet" type="radio" value="idontknow">Je ne sais pas</label>
+</p>
+<p>Les images sont bien choisies; elles sont en nombre suffisant:</p>
+<p>
+<label><input name="images" type="radio" value="verygood">Oui, tout à fait</label>
+<label><input name="images" type="radio" value="good">Oui, plutôt</label>
+<label><input name="images" type="radio" value="bad">Non, pas vraiment</label>
+<label><input name="images" type="radio" value="verybad">Non, pas du tout</label>
+<label><input name="images" type="radio" value="idontknow">Je ne sais pas</label>
+</p>
+<p>Le design est bon, le site est lisible et agréable à regarder:</p>
+<p>
+<label><input name="design" type="radio" value="verygood">Oui, tout à fait</label>
+<label><input name="design" type="radio" value="good">Oui, plutôt</label>
+<label><input name="design" type="radio" value="bad">Non, pas vraiment</label>
+<label><input name="design" type="radio" value="verybad">Non, pas du tout</label>
+<label><input name="design" type="radio" value="idontknow">Je ne sais pas</label>
+</p>
+<h2>Avez-vous quelque chose à rajouter / un message à me faire passer?</h2>
+<p><textarea placeholder="Ecrivez votre message..."></textarea></p>
+<input type="submit" value="Envoyer">
+</form>
+<!-- Début 2nde partie commune -->
+</div>
+</body>
+</html>
+<!-- Fin 2nde partie commune -->

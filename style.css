@@ -1,10 +1,40 @@
 body{margin-top: 0px; margin-left: 0px; background-color: gray; float: left}
-#bannière{position: fixed; }
-img{max-width: 100vw}
-#menugauche{margin-top: 270px; background-color: #efefef; position: fixed; padding-bottom: 10000000000px}
-#principal{margin-top: 270px; background: url("fond.png") repeat; font-family: Calibri; color: rgb(0, 0, 0);
-margin-left: 250px; margin-right: 245px; margin-bottom: 10px; padding-bottom: 400px;}
-#menudroite{margin-top: 270px; background-color: #efefef; position: fixed; right: 0; padding-bottom: 10000000000px}
-invisible{opacity: 0}
-imgtexte > img{max-width: 100vw; margin-left: 10px}
-h2{text-align: center}
+
+ul{list-style-type: none; padding-left: 0}
+
+a:link, a:visited{color: rgb(0, 0, 255)}
+
+article.lienimportant{text-align: center}
+
+article.imgtexte img{max-width: 40vw; margin-left: 10px}
+
+textarea{resize: none; width: 33vw; height: 20vh}
+
+
+#bannière{position: fixed}
+
+#bannière img{width: 100vw; height: 25vh}
+
+#menugauche, #menudroite{margin-top: 26vh; width: 170px; background-color: rgb(50, 50, 50); 
+position: fixed; padding-bottom: 10000000000px}
+
+#menugauche h1, #menudroite h1{font-size: 20pt; font-variant: small-caps; font-family: Arial; color: red;
+font-style: italic;}
+
+#menugauche a:link, #menugauche a:visited, #menudroite a:link, #menudroite a:visited{font-family: Calibri;
+color: rgb(255, 255, 255)}
+
+#menugauche a:hover, #menudroite a:hover{color: rgb(225, 225, 225); font-weight: bold}
+
+#menudroite{right: 0;}
+
+#principal{margin-top: 26vh; background: url("fond.png") repeat; font-family: Calibri;
+color: rgb(0, 0, 0); text-align: justify; margin-left: 180px; margin-right: 172px; margin-bottom: 10px;
+padding-bottom: 5px; min-height: 71vh}
+
+
+@media screen and (max-width: 1240px) {#menugauche{padding-bottom: 0px}}
+
+@media screen and (max-width: 1240px) {#menudroite{margin-top: 500px; left: 0}}
+
+@media screen and (max-width: 1240px) {#principal{margin-right: 0px; min-width: 100px;}}
